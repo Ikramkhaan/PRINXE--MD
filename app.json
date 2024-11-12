@@ -1,30 +1,24 @@
 {
-  "name": "PRINXE--MD",
-  "description": "PRINXE-MD A SUPER WHATSAPP USER BOT",
-  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/PRINCE-GDS/PRINXE-MD",
-  
+  "name": "prince-ds",
+  "description": "PRINCE MD WHATSAPP USER BOT",
+  "repository": "https://github.com/PRINCE-GDS/prince-ds",
+"logo": "https://i.imgur.com/0GodFgO.jpeg",
+"success_url": "https://github.com/PRINCE-GDS/prince-ds",
+"keywords": [
+"nodejs", "heroku", "bot", "urdu", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
+"termux", "superbot", "multi-device", "md", "official", "javascript", "princebot"],
+"image": "heroku/nodejs",
   "stack": "container",
   "env": {
       "OWNERS": {
       "description": "Put your Number as Owner",
       "required": true,
-      "value": "923092668xxx;❣️Prince"
+      "value": "923092668xxx;❣️DASTAGEER"
       },
      "MODE": {
       "description": "mode public or private",
       "required": true,
       "value": "public"
-       },
-     "HKEY": {
-      "description": "Put your Heroku API key Here",
-      "required": true,
-      "value": ""
-    },
-     "HAPP": {
-      "description": "Put the Heroku app name, same as above entered",
-      "required": true,
-      "value": ""
        },
     "PREFIX": {
       "description": "Put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
@@ -46,30 +40,30 @@
       "required": false,
       "value": "false"
       },
-    "STATUS_MESSAGE": {
-      "description": "Type your status reply message to send auto message to your contacts status and it will only work if bot is on public mode",
-      "required": false,
-      "value": "🩵ʏᴏᴜʀ sᴛᴀᴛᴜs sᴇᴇɴ sᴜᴄᴄᴇssғᴜʟʟʏ😍\n😎ʙʏ *ᴘʀɪɴᴄᴇ ᴍᴅ* ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ🩵"
-      },
-    "STATUS_REPLY": {
-      "description": "Make it true or false to turn on/off Auto status message to your contacts",
-      "required": false,
-      "value": "true"
-      },
     "VIEWONCE": {
       "description": "Make true if wanna get view once message",
       "required": false,
       "value": "true"
        },
+      "STATUS_REPLY": {
+      "description": "Status reply true false to on off",
+      "required": false,
+      "value": "false"
+      },
+    "STATUS_MESSAGE": {
+      "description": "Status reply message",
+      "required": false,
+      "value": "Your Status has been seen by Prince bot"
+      },
     "BOT_NAME": {
       "description": "Put your BOT a name",
       "required": true,
-      "value": "🎡𝗣𝗥𝗜𝗡𝗫𝗘-𝗠𝗗🎡"
+      "value": "ᏢᎡᏆΝХᏟᎬ-ᎷᎠ-ᏔᏴ"
       },
     "PACK_NAME": {
       "description": "Put your stickers pack name",
       "required": false,
-      "value": "Prince🎗️❣️"
+      "value": "Princebot🎗️❣️"
       },
     "DATABASE_URL": {
       "description": "Put your MongoDB here",
@@ -79,7 +73,7 @@
     "DL_MSG": {
       "description": "Video downloader caption",
       "required": true,
-      "value": "📥-------- *ᴘʀɪɴᴄᴇ-ᴍᴅ* --------📥"
+      "value": "📥-------- *⛲ᴘʀɪɴᴄᴇ-ᴍᴅ⛲* --------📥"
       },
     "STATUSVIEW": {
       "description": "Make it true if you want the bot to auto view status",
@@ -115,7 +109,7 @@
       "url": "heroku/nodejs"
     },
     {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
