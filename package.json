@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@bochilteam/scraper-sosmed": "^1.0.5"
     "@brandond/findthelyrics": "^2.0.5",
     "@green-code/music-track-data": "^2.0.3",
     "@shineiichijo/marika": "^2.0.6",
@@ -97,10 +96,7 @@
     "src": "src",
     "plugins": "plugins"
   },
-  
-  "engines": {
-    "node": ">=20.0.0"
-  },
+
   
   "homepage": "https://github.com/PRINCE-GDS/prince-ds",
   "main": "index.js",
@@ -111,12 +107,12 @@
     "cheerio": "npm:cheerio@1.0.0-rc.12"
   },
   
-  "scripts": {
-    "start": "node index.js",
-    "code": "node index.js code",
-    "test": "node test.js",
-    "test2": "nodemon index.js"
-  },
+"scripts": {
+        "start": "node index.js",
+        "test": "node test.js",
+        "test2": "nodemon index.js"
+    },
+  
   "type": "module",
   "version": "1.0.0",
   "description": "Multi Device WhatsApp user bot",
